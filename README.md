@@ -36,4 +36,5 @@
  * [Shiny contest submissions](https://community.rstudio.com/tags/shiny-contest)  
  * [Winners of the first shiny contest](https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/)  
  * [awesome-rshiny](https://github.com/grabear/awesome-rshiny)  
- * [awesome-shiny-extensions](https://github.com/nanxstats/awesome-shiny-extensions)
+ * [awesome-shiny-extensions](https://github.com/nanxstats/awesome-shiny-extensions)  
+ * [rintrojs](https://carlganz.github.io/rintrojs/)  
