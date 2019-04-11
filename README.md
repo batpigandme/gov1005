@@ -13,6 +13,7 @@
  * [learngganimate](https://github.com/ropenscilabs/learngganimate)  
  * [gghighlight](https://github.com/yutannihilation/gghighlight)  
  * [ggrepel](https://github.com/slowkow/ggrepel)  
+ * [ggforce](https://github.com/thomasp85/ggforce)  
  * [ggthemes](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/)
  * [highcharter](https://github.com/jbkunst/highcharter)  
 
