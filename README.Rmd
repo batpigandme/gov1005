@@ -16,6 +16,10 @@ display: none;
 }
 </style>
 
+## `r emo::ji("warning")`
+
+Much prettier version of this page [here](https://connect.rstudioservices.com/content/282/gov1005.html).
+
 ## Personal faves `r emo::ji("heart")`
 
 ### [reprex](https://reprex.tidyverse.org/)  

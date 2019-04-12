@@ -10,6 +10,11 @@ display: none;
 }
 </style>
 
+## ⚠️
+
+Much prettier version of this page
+[here](https://connect.rstudioservices.com/content/282/gov1005.html).
+
 ## Personal faves ❤️
 
 ### [reprex](https://reprex.tidyverse.org/)
@@ -43,7 +48,7 @@ plus-minus](https://i.imgur.com/2VkYy8v.png)
   - [**awesome-shiny-extensions**](https://github.com/nanxstats/awesome-shiny-extensions)  
   - [**rintrojs**](https://carlganz.github.io/rintrojs/)
 
-## ggplot2 and beyond… 📉
+## ggplot2 and beyond… 📈
 
   - [**hrbrthemes**](https://github.com/hrbrmstr/hrbrthemes)  
   - [**gganimate**](https://gganimate.com/)  
