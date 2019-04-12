@@ -1,0 +1,139 @@
+---
+title: "GOV 1005"
+description: |
+  Some R packages, tools, and resources for the Spring 2019 students of GOV 1005. 
+author:
+  - name: Mara Averick 
+    url: https://maraaverick.rbind.io/
+    affiliation: RStudio
+    affiliation_url: https://www.rstudio.com/
+date: "`r Sys.Date()`"
+creative_commons: CC BY
+output: distill::distill_article
+bibliography: bibliography.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Some personal faves `r emo::ji("heart")`
+
+### [reprex](https://reprex.tidyverse.org/)  
+<aside>
+  Jennifer Bryan, Jim Hester, David Robinson and Hadley Wickham (2019).
+  reprex: Prepare Reproducible Example Code via the Clipboard.
+  https://reprex.tidyverse.org.
+</aside>
+![reprex rendered with an chart ready to copy and paste](https://i.imgur.com/kqhw14i.gif)  
+
+### [skimr](https://github.com/ropensci/skimr)  
+<aside>
+  Amelia McNamara, Eduardo Arino de la Rubia, Hao Zhu, Shannon Ellis and
+  Michael Quinn (2019). skimr: Compact and Flexible Summaries of Data. R
+  package version 1.0.5. https://CRAN.R-project.org/package=skimr
+</aside>
+![A reprex with skimr shown in the console](https://i.imgur.com/eoxxnE3.gif)
+
+### [distill](https://github.com/rstudio/distill)  
+<aside>
+  JJ Allaire, Rich Iannone and Yihui Xie (2019). distill: 'R Markdown' Format
+  for Scientific and Technical Writing. R package version 0.6.0.9000.
+  https://github.com/rstudio/distill
+</aside>
+A [distill page](https://inspiring-babbage-762512.netlify.com/storytelling) with a bunch of gt tables (and other ggplot2 extension faves).  
+
+![A distill page with a chart styled using hrbrthemes](https://i.imgur.com/ST3kg8e.png)  
+
+### [gt](https://github.com/rstudio/gt)  
+<aside>
+  Richard Iannone, Joe Cheng and Barret Schloerke (2019). gt: Easily Create
+  Presentation-Ready Display Tables. R package version 0.1.0.
+  https://github.com/rstudio/gt
+</aside>
+
+![gt of NBA top offensive box plus-minus](https://i.imgur.com/2VkYy8v.png)  
+
+## Shiny resources `r emo::ji("sparkle")`
+
+ * [__Shiny contest submissions__](https://community.rstudio.com/tags/shiny-contest)  
+ * [__Winners of the first shiny contest__](https://blog.rstudio.com/2019/04/05/first-shiny-contest-winners/)  
+ * [__awesome-rshiny__](https://github.com/grabear/awesome-rshiny)  
+ * [__awesome-shiny-extensions__](https://github.com/nanxstats/awesome-shiny-extensions)  
+ * [__rintrojs__](https://carlganz.github.io/rintrojs/) [@rintrojs]  
+
+## ggplot2 and beyond... `r emo::ji("graph")`
+ * [__hrbrthemes__](https://github.com/hrbrmstr/hrbrthemes) [@hrbrthemes]  
+ * [__gganimate__](https://gganimate.com/) [@gganimate]  
+ * [__learngganimate__](https://github.com/ropenscilabs/learngganimate)  
+ * [__gghighlight__](https://github.com/yutannihilation/gghighlight) [@gghighlight]  
+ * [__ggrepel__](https://github.com/slowkow/ggrepel) [@ggrepel]  
+ * [__ggforce__](https://github.com/thomasp85/ggforce) [@ggforce]  
+ * [__ggthemes__](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/) [@ggthemes]
+ * [__highcharter__](https://github.com/jbkunst/highcharter) [@highcharter]  
+ 
+## Add-ins `r emo::ji("mouse")`
+ 
+### [gglabeller](https://github.com/AliciaSchep/gglabeller)  
+<aside>
+  Alicia Schep (2019). gglabeller: Shiny gadget for labelling points in
+  ggplots. R package version 0.3.0.
+</aside>
+![gglabeller RStudio add-in](https://i.imgur.com/UNlD4Gh.gif)  
+
+### [esquisse](https://github.com/dreamRs/esquisse)  
+<aside>
+  Fanny Meyer and Victor Perrier (2019). esquisse: Explore and Visualize Your
+  Data Interactively. R package version 0.1.7.950.
+  https://github.com/dreamRs/esquisse
+</aside>
+![esquisse interactive ggplot2 add-in](https://i.imgur.com/67ltRlm.gif)
+
+### [regexplain](https://github.com/gadenbuie/regexplain)  
+<aside>
+  Garrick Aden-Buie (2018). regexplain: Rstudio Addin to Explain, Test and
+  Build Regular Expressions. R package version 0.2.2.
+  https://github.com/gadenbuie/regexplain
+</aside>
+![RegExplain Regular Expression Library](https://i.imgur.com/IUQq3XA.gif)  
+
+### [datapasta](https://github.com/MilesMcBain/datapasta)  
+<aside>
+  Miles McBain and Jonathan Carroll (2018). datapasta: R Tools for Data
+  Copy-Pasta. R package version 3.0.0.
+  https://CRAN.R-project.org/package=datap
+</aside>
+![datapasta being used to add spreadsheet data to a reprex](https://i.imgur.com/0IWYtqT.gif)  
+
+## Slide-related `r emo::ji("projector")`
+
+### [xaringnan](https://github.com/yihui/xaringan) (with [infinite moon reader](https://yihui.name/en/2019/02/ultimate-inf-mr/))  
+<aside>
+  Yihui Xie (2019). xaringan: Presentation Ninja. R package version 0.9.3.
+  https://github.com/yihui/xaringan
+</aside>
+![xaringan with inifinite moon reader](https://i.imgur.com/7XXnzd4.gif)  
+
+### [xaringanthemer](https://www.garrickadenbuie.com/project/xaringanthemer/)  
+<aside>
+  Garrick Aden-Buie (2018). xaringanthemer: Xaringan CSS Theme Generator. R
+  package version 0.2.0. https://github.com/gadenbuie/xaringanthemer
+</aside>
+![xaringanthemer themes and tab-completion](https://i.imgur.com/XGnUkB7.gif)   
+
+### [xaringan ninja-theme](https://github.com/emitanaka/ninja-theme)  
+
+![xaringan ninja theme presentation by Emi Tanaka](https://i.imgur.com/N0qto2D.gif)
+
+### [reprex venue RTF](https://reprex.tidyverse.org/articles/articles/rtf.html)
+![Using reprex venue RTF to add highlighted code to a keynote presentation](https://i.imgur.com/jXZJHUP.gif)
+
+
+## Tada `r emo::ji("tada")`
+
+There's lots more cool stuff, so feel free to hit me up on twitter ([`@dataandme`](https://twitter.com/dataandme)), or swing by [community.rstudio.com](https://community.rstudio.com/) with any questions you might have.
+
+
+
+
+
