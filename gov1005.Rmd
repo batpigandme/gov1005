@@ -1,7 +1,7 @@
 ---
 title: "GOV 1005"
 description: |
-  Some R packages, tools, and resources for the Spring 2019 students of GOV 1005. 
+  Some R packages, tools, and resources for the 2019 students of GOV 1005. 
 author:
   - name: Mara Averick 
     url: https://maraaverick.rbind.io/
